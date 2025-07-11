@@ -198,7 +198,3 @@ func Bridge[T any](done <-chan struct{}, chanStream <-chan (<-chan T)) <-chan T 
 	}()
 	return ch
 }
-
-func todo() {
-
-}
